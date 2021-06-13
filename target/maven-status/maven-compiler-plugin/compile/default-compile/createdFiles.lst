@@ -1,0 +1,13 @@
+workflows\LoginPage.class
+workflows\OrdersAndReturnsPage.class
+pageUIs\RegisterPageUI.class
+utils\Commons\Constans.class
+workflows\RegisterPage.class
+workflows\HomePage.class
+utils\Commons\AbstractPage.class
+controllers\SetupSteps.class
+workflows\SiteMapPage.class
+pageUIs\OrdersAndReturnsPageUI.class
+controllers\Controller.class
+utils\Commons\Property.class
+pageUIs\LoginPageUI.class

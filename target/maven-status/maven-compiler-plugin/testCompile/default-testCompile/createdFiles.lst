@@ -1,0 +1,9 @@
+stepdefs\SiteMapSteps.class
+testRunner\ExecuteSmokeTest.class
+testRunner\TestRunner.class
+stepdefs\LoginSteps.class
+testRunner\ExecuteSanityTest.class
+stepdefs\HomeSteps.class
+testRunner\ExecuteRegressionTest.class
+stepdefs\OrdersAndReturnsSteps.class
+stepdefs\RegisterSteps.class

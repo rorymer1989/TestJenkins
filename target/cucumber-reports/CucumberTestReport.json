@@ -1,0 +1,92 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9135705900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetupSteps.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Login with correct password only",
+        "description": "",
+        "id": "user-management;login-with-correct-password-only",
+        "after": [
+          {
+            "result": {
+              "duration": 886451600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetupSteps.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1282423100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I access to Login Function",
+            "match": {
+              "location": "LoginSteps.goToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I login",
+            "match": {
+              "location": "LoginSteps.login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@mc-0101"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          },
+          {
+            "line": 6,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "User Management",
+    "description": "As a user\r\nI want to login",
+    "id": "user-management",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@feature-guru-01"
+      },
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
